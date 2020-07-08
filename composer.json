@@ -1,0 +1,22 @@
+{
+  "name": "mini3-controller-extensions/twig",
+  "description": "mini3 controller extension for Twig support",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Emanuel Bitkov",
+      "email": "crystlbrd@bitkov.de"
+    }
+  ],
+  "require": {
+    "php": ">=7.1",
+    "crystlbrd/values": "0.1.0",
+    "twig/twig": "^3.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Mini3ControllerExtensions\\Twig\\": "src/"
+    }
+  }
+}
